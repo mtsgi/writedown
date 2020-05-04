@@ -1,0 +1,27 @@
+{
+  "name": "writedown",
+  "version": "0.1.0",
+  "description": "writing html will be more fun!",
+  "main": "writedown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtsgi/writedown.git"
+  },
+  "keywords": [
+    "html",
+    "selector",
+    "library",
+    "js",
+    "class",
+    "id"
+  ],
+  "author": "mtsgi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtsgi/writedown/issues"
+  },
+  "homepage": "https://github.com/mtsgi/writedown#readme"
+}
