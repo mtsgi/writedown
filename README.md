@@ -37,7 +37,7 @@ Writing html will be more fun!
 ```
 
 ```html
-<body id="root>
+<body id="root">
   <header>
     <a class="header-logo">Writedown</a>
   </header>
