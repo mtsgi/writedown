@@ -4,6 +4,12 @@ Writing html will be more fun!
 
 ![kaf.js](./logotype.png)
 
+### [View actual sample](https://mtsgi.github.io/writedown/docs/)
+
+### [View on GitHub](https://github.com/mtsgi/writedown)
+
+### [View on npmjs.com](https://www.npmjs.com/package/writedown)
+
 ## Example
 
 ```html
