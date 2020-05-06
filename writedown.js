@@ -2,17 +2,21 @@
 
 document.querySelectorAll('*').forEach(node => {
   if (node.hasAttributes()) {
+    let attrs = [], classes = [], id = null;
     for (const attr of node.attributes) {
       switch (attr.name[0]) {
         case '.':
-          node.classList.add(...attr.name.slice(1).split('.'));
-          node.removeAttribute(attr.name);
+          classes.push(...attr.name.substring(1).split('.'));
+          attrs.push(attr.name);
           break;
         case '#':
-          node.id = attr.name.slice(1);
-          node.removeAttribute(attr.name);
+          id = attr.name.substring(1);
+          attrs.push(attr.name);
           break;
       }
     }
+    for (const a of attrs) { node.removeAttribute(a) }
+    if (classes.length) node.classList.add(...classes);
+    if (id) node.id = id;
   }
 });
