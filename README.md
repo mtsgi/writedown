@@ -32,14 +32,7 @@ Writing html will be more fun!
 </body>
 ```
 
-```
-   |||||
-   ;;;;;
-   ;;;;;
- ..;;;;;..
-  ':::::'
-    ':'
-```
+↓
 
 ```html
 <body id="root">
@@ -54,4 +47,23 @@ Writing html will be more fun!
     OK
   </button>
 </body>
+```
+
+## Usage
+
+There are two ways to initialize Writedown.
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/mtsgi/writedown@master/writedown.js"></script>
+```
+
+or
+
+```html
+<script type="module">
+  import * as wd from "../wd.js";
+  wd.init('.wd');
+  // You can init Writedown for the specific element in this way
+  // This also works: wd.init(document.querySelector('.wd'))
+</script>
 ```
